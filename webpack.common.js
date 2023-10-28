@@ -6,7 +6,7 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Restaurant Page",
+      template: "./src/index.html",
       favicon: "./src/favicon.ico",
       inject: "body",
     }),
