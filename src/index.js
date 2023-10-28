@@ -1,3 +1,5 @@
+import Navbar from "./components/navbar/navbar.js";
+
 const content = document.getElementById("content");
 
-content.innerHTML = "<h1>Hello Restaurant</h1>";
+content.appendChild(Navbar("Dan"));
