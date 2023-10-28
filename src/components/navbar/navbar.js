@@ -1,12 +1,14 @@
 import styles from "./navbar.css";
+import NavItem from "../navItem/navItem";
 
-const Navbar = (test) => {
-  const navbar = document.createElement("nav");
-  navbar.classList.add(styles.navbar);
-
-  navbar.innerHTML = `<h1>Hello ${test}</h1>`;
-
-  return navbar;
+const Navbar = () => {
+  return `<nav class="${styles.navbar}">
+    <ul>
+        ${NavItem("Home", "")}
+        ${NavItem("Menu", "")}
+        ${NavItem("Contact", "")}
+    </ul>
+  </nav>`;
 };
 
 export default Navbar;

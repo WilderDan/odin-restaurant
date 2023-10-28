@@ -1,4 +1,11 @@
 .navbar {
   background-color: black;
   color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-evenly;
 }
