@@ -1,0 +1,18 @@
+.menuItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid gray;
+  padding: 1vh 1vw;
+  gap: 1rem;
+  min-width: 300px;
+}
+
+.titlePriceContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menuItem > p {
+  text-align: left;
+}
