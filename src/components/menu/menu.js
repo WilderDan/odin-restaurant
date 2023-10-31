@@ -2,8 +2,24 @@ import styles from "./menu.css";
 import MenuItem from "../menuItem/menuItem";
 
 const MENU = [
-  ["California Roll", "Crab meat, cucumber, and avocado", 4.95],
-  ["SPICY CALIFORNIA ROLL", "Spicy crab meat, cucumber, and avocado", 4.99],
+  ["California Roll", "Crab meat, cucumber, and avocado", "4.95"],
+  ["Vegetable Roll", "Asparagus, cucumber, and avocado", "4.50"],
+  ["Hollywood Roll", "Crab meat, cream cheese, and avocado", "7.50"],
+  [
+    "Shrimp Tempura Roll",
+    "Shrimp tempura, cucumber, and with chef sauce",
+    "7.50",
+  ],
+  [
+    "Salmon Tempura Roll",
+    "Salmon tempura, cucumber, and with chef sauce",
+    "6.00",
+  ],
+  ["Tuna Roll", "Tuna and cucumber", "4.50"],
+  ["Spicy Tuna Roll", "Chop spicy tuna, and avocado", "5.50"],
+  ["Rock & Roll", "Baked eel, cucumber, and avocado", "6.00"],
+  ["Sweet Potato Roll", "Tempura sweet potato", "4.75"],
+  ["Spicy California Roll", "Spicy crab meat, cucumber, and avocado", "4.99"],
 ];
 
 const Menu = () => {
