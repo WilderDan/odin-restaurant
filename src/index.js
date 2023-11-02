@@ -5,4 +5,11 @@ import Menu from "./components/menu/menu.js";
 
 const content = document.getElementById("content");
 
-content.innerHTML = Menu();
+const header = document.createElement("header");
+const main = document.createElement("main");
+
+header.innerHTML = Navbar();
+main.innerHTML = Menu();
+
+content.appendChild(header);
+content.appendChild(main);

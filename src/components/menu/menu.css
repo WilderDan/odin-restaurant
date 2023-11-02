@@ -1,6 +1,11 @@
 .menu {
   background-color: white;
   text-align: center;
+  padding: 2vh 2vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .menuItemsContainer {
