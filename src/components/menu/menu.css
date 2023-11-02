@@ -8,6 +8,16 @@
   justify-content: center;
 }
 
+.menuHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.goblinCookImg {
+  width: 75px;
+}
+
 .menuItemsContainer {
   margin: 5vh 1vw;
   display: flex;

@@ -1,5 +1,7 @@
 import styles from "./menu.css";
 import MenuItem from "../menuItem/menuItem";
+import GoblinCookLeftImage from "./images/goblinCookLeft.png";
+import GoblinCookRightImage from "./images/goblinCookRight.png";
 
 const MENU = [
   ["California Roll", "Crab meat, cucumber, and avocado", "4.95"],
@@ -25,7 +27,16 @@ const MENU = [
 const Menu = () => {
   return /*htmL*/ `
     <div class="${styles.menu}">
-        <h1>Our Menu</h1>
+
+        <div class="${styles.menuHeader}">
+          <img class="${
+            styles.goblinCookImg
+          }" src="${GoblinCookLeftImage}" alt="goblin cook" />
+          <h1>Our Menu</h1>
+          <img class="${
+            styles.goblinCookImg
+          }" src="${GoblinCookRightImage}" alt="goblin cook" />
+        </div>
         <div class="${styles.menuItemsContainer}">
             ${getMenuItemsHtmlString()}
         </div>
