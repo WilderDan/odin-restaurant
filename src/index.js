@@ -17,4 +17,9 @@ content.appendChild(main);
 
 function callback(name) {
   navbar.setActive(name);
+
+  const mainComponent =
+    name === "Home" ? Home : name === "Menu" ? Menu : Contact;
+
+  main.innerHTML = mainComponent();
 }
