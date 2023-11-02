@@ -14,3 +14,11 @@
   flex-wrap: wrap;
   gap: 1rem;
 }
+
+.navbar li {
+  cursor: pointer;
+}
+
+.activeNavItem {
+  text-decoration: underline;
+}
