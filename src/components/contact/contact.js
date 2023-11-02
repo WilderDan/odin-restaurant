@@ -18,7 +18,7 @@ const Contact = () => {
                         <p>Tuesday</p> <p>12:00PM - 10:00PM</p> 
                     </li>
                     <li class="${styles.dayHours}">
-                        <p>Wednesday</p> <p>12:00AM - 10:00PM</p>
+                        <p>Wednesday</p> <p>12:00PM - 10:00PM</p>
                     </li>
                     <li class="${styles.dayHours}">
                         <p>Thursday</p> <p>12:00PM - 10:00PM</p>
